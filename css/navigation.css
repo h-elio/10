@@ -1,0 +1,35 @@
+.tab-bar {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: #f7f7f7;
+    border-top: #c0c0c0 solid 1px;
+    padding: 10px 30px 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tab-bar-tab {
+    color: #c0c0c0;
+}
+
+.tab-bar-tab:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s linear;
+}
+
+.tab-bar-tab i {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.tab-bar-tab .tab-bar-title {
+    font-size: 10px;
+}
+
+.tab-bar-tab.tab-bar-selected {
+    color: #523737;
+}
