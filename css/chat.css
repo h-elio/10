@@ -1,0 +1,111 @@
+.header-chat {
+    background-color: #a1c0d5;
+    color: #000;
+    border-bottom: 1px solid #646464;
+}
+.chat-body {
+    background-color: #a1c0d5;
+}
+.chat-date {
+    text-align: center;
+    padding: 20px;
+    font-size: 12px;
+    color: #646464;
+}
+
+.chat-send {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.send-message {
+    background-color: #ffe934;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.chat-receive {
+    display: flex;
+    flex-direction: column;
+}
+
+.chat-receive img {
+    width: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.chat-friend {
+    display: flex;
+    margin: 10px;
+}
+
+.receive-messages {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    align-items: flex-start;
+    position: relative;
+    top: -14px;
+}
+
+.receive-message {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.send-message-time {
+    position: relative;
+    top: -20px;
+    right: 200px;
+    font-size: 10px;
+    color: #646464;
+}
+.receive-message-time {
+    position: relative;
+    top: -20px;
+    right: -190px;
+    font-size: 10px;
+    color: #646464;
+}
+
+.type-message {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: #eee;
+    border-top: #c0c0c0 solid 1px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+}
+
+.fa-plus {
+    color: #b4b4b4;
+}
+
+.type-message-input input[type="text"] {
+    padding: 7px;
+    position: relative;
+    width: 350px;
+}
+
+.fa-smile-o {
+    position: absolute;
+    bottom: 23px;
+    right: 55px;
+    color: #b4b4b4;
+}
+
+.record-message {
+    vertical-align: middle;
+    background-color: #ffe934;
+    padding: 6px 10px;
+}
