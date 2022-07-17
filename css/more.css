@@ -59,6 +59,10 @@
     margin: 15px;
 }
 
+.fa-smile-o {
+    position: static !important;
+}
+
 .more-plus-friends .more-pf-header {
     display: flex;
     justify-content: space-between;
